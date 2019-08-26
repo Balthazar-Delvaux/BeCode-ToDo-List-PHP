@@ -9,16 +9,23 @@
 </head>
 
 <body>
-    <section class="tasks">
-        <h3>TO DO</h3>
-        <h3>ARCHIVE</h3>
+    <section class="callout">
+        <h5>TO DO</h5>
+        <h5>ARCHIVE</h5>
     </section>
-    <section class="form">
-        <h2>Add a task</h2>
-        <h3>TASK TO DO</h3>
-        <form action="" method="post">
-            <input type="text" name="" id="">
+    <section class="callout">
+        <h4>Add a task</h4>
+        <form action="index.php" method="post">
+            <div class="grid-x grid-padding-x">
+                <div>
+                    <input type="text">
+                </div>
+                <div>
+                    <a href="" class="button">Add</a>
+                </div>
+            </div>
         </form>
+
     </section>
     <!-- Scripts -->
     <script src="assets/js/vendor/jquery.js"></script>
