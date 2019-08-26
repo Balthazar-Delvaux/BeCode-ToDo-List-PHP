@@ -9,11 +9,11 @@
 </head>
 
 <body>
-    <section class="callout">
+    <section class="callout primary">
         <h5>TO DO</h5>
         <h5>ARCHIVE</h5>
     </section>
-    <section class="callout">
+    <section class="callout secondary">
         <h4>Add a task</h4>
         <form action="index.php" method="post">
             <div class="grid-x grid-padding-x">
