@@ -1,0 +1,20 @@
+{
+    "tasks": [{
+            "message": "Une to-do liste.",
+            "isDone": false
+        },
+        {
+            "message": "DEUX to-do listes.",
+            "isDone": false
+        }
+    ],
+    "archived": [{
+            "message": "Une calculatrice en PHP.",
+            "isDone": true
+        },
+        {
+            "message": "Finir SoloLearn en 4 heures.",
+            "isDone": true
+        }
+    ]
+}
