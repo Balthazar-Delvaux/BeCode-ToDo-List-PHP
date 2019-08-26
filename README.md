@@ -1,2 +1,2 @@
 # ToDo-List-PHP
-ToDo liste en PHP
+To Do liste en PHP
