@@ -1,11 +1,15 @@
 {
-    "tasks": [{
+    "todo": [{
             "message": "Une to-do liste.",
             "isDone": false
         },
         {
             "message": "DEUX to-do listes.",
             "isDone": false
+        },
+        {
+            "message": "Envoyer des CV.",
+            "isDone": true
         }
     ],
     "archived": [{
