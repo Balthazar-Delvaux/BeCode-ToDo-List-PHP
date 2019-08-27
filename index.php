@@ -1,5 +1,6 @@
-<?php include 'form.php';
-   if ($_POST['taskToAdd']) {
+<?php
+    include 'form.php';
+    if ($_POST['taskToAdd']) {
     postData(); 
    }
 ?>
