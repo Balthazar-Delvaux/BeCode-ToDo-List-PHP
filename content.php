@@ -4,17 +4,21 @@
         if ($category == 'todo' || $category == 'archived') {
             $json_source = file_get_contents('./todo.json');
             $json_data = json_decode($json_source, true);
+            echo '<ul>';
             foreach ($json_data[$category] as $key => $value) {
                 $name = "taskNb". + $key;
-                echo '<div>';
-                if ($value["isDone"]) {
+                echo '<li>';
+                if ($value["isDone"] && $category == 'archived') {
+                    echo '<input type="checkbox" name=' . $name . ' checked="1" disabled="disabled">';
+                } else if ($value["isDone"]) {
                     echo '<input type="checkbox" name=' . $name . ' checked="1">';
                 } else {
                     echo '<input type="checkbox" name=' . $name . '>';
                 }
                 echo '<label for="'. $name . '">' . $value["message"] . '</label>';
-                echo '</div>';
+                echo '</li>';
             }
+            echo '</ul>';
             
         }
         

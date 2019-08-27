@@ -1,3 +1,9 @@
+<?php include 'form.php';
+   if ($_POST['taskToAdd']) {
+    postData(); 
+   }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,22 +11,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-do List!</title>
-    <link rel="stylesheet" href="assets/css/foundation.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.5.3/css/foundation.min.css"
+        integrity="sha256-xpOKVlYXzQ3P03j397+jWFZLMBXLES3IiryeClgU5og=" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/app.css">
 </head>
 
 <body>
 
     <section class="callout primary">
-        <h5>TO DO</h5>
-        <?php
-            include "content.php";
-            getData(todo);
-        ?>
-        <h5>ARCHIVE</h5>
-        <?php
-            getData(archived);
-        ?>
+        <div class="todo">
+            <h5>TO DO</h5>
+            <?php
+                include "content.php";
+                getData(todo);
+            ?>
+        </div>
+        <div class="archived">
+            <h5>ARCHIVED</h5>
+            <?php
+                getData(archived);
+            ?>
+        </div>
         <button class="button">SAVE</button>
     </section>
 
@@ -39,9 +50,12 @@
 
     </section>
     <!-- Scripts -->
-    <script src="assets/js/vendor/jquery.js"></script>
-    <script src="assets/js/vendor/what-input.js"></script>
-    <script src="assets/js/vendor/foundation.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/what-input/5.2.3/what-input.min.js"
+        integrity="sha256-CzzDpFVBRF2Q9t6/eCvXy4TpLnKBc7kTislg1GVr05w=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.5.3/js/foundation.min.js"
+        integrity="sha256-/PFxCnsMh+nTuM0k3VJCRch1gwnCfKjaP8rJNq5SoBg=" crossorigin="anonymous"></script>
 </body>
 
 </html>
