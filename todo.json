@@ -1,1 +1,19 @@
-{"todo":[{"message":"Une to-do liste.","isDone":false},{"message":"DEUX to-do listes.","isDone":false},{"message":"Envoyer des CV.","isDone":true},{"message":"hello","isDone":false}],"archived":[{"message":"Une calculatrice en PHP.","isDone":true},{"message":"Finir SoloLearn en 4 heures.","isDone":true}]}
+{
+    "todo": [{
+        "message": "Une to-do liste.",
+        "isDone": false
+    }, {
+        "message": "DEUX to-do listes.",
+        "isDone": false
+    }, {
+        "message": "Envoyer des CV.",
+        "isDone": true
+    }],
+    "archived": [{
+        "message": "Une calculatrice en PHP.",
+        "isDone": true
+    }, {
+        "message": "Finir SoloLearn en 4 heures.",
+        "isDone": true
+    }]
+}

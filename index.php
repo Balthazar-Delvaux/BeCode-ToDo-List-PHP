@@ -33,7 +33,7 @@
                 getData(archived);
             ?>
         </div>
-        <button class="button">SAVE</button>
+        <button class="button" id="save">SAVE</button>
     </section>
 
     <section class="callout secondary">
@@ -57,6 +57,7 @@
         integrity="sha256-CzzDpFVBRF2Q9t6/eCvXy4TpLnKBc7kTislg1GVr05w=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.5.3/js/foundation.min.js"
         integrity="sha256-/PFxCnsMh+nTuM0k3VJCRch1gwnCfKjaP8rJNq5SoBg=" crossorigin="anonymous"></script>
+    <script src="assets/js/app.js"></script>
 </body>
 
 </html>

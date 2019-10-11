@@ -10,3 +10,8 @@ li {
 .archived label{
     color: gray;
 }
+
+section {
+    width: auto !important;
+    margin: 2% 10% !important;
+}
